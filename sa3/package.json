@@ -1,16 +1,33 @@
 {
   "name": "sa3",
   "version": "1.0.0",
-  "description": "",
+  "description": "cs52 short assignment 3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patxu/cs52-web-dev"
+  },
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "NODE_ENV=development webpack-dev-server --inline --hot"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
