@@ -7,7 +7,7 @@ const VideoList = (props) => {
   });
 
   return (
-    <div id="video-section">
+    <div id="video-list">
       <ul>
         {videoItems}
       </ul>
